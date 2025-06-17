@@ -60,20 +60,27 @@
 .content-tile picture img {
     object-fit: cover;
 }
-
+.content-tile .border {
+    position: absolute;
+    width: calc(100% - 24px);
+    height: calc(100% - 24px);
+    top: 12px;
+    left: 12px;
+    z-index: 50;
+}
 .content-tile .border:before {
     top: 0;
     right: 0;
+    left: 0;
     border-left: 4px solid white;
     border-top: 4px solid white;
-    padding-left: 5px;
 }
 .content-tile .border:after {
     bottom: 0;
     left: 0;
+    top: 0;
     border-bottom: 4px solid white;
     border-right: 4px solid white;
-    padding-right: 5px;
 }
 .content-tile .border:before, .content-tile .border:after {
     content: '';
