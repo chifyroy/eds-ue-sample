@@ -59,6 +59,7 @@
 }
 .content-tile picture img {
     object-fit: cover;
+    height: 100%;
 }
 .content-tile .border {
     position: absolute;
@@ -71,14 +72,12 @@
 .content-tile .border:before {
     top: 0;
     right: 0;
-    left: 0;
     border-left: 4px solid white;
     border-top: 4px solid white;
 }
 .content-tile .border:after {
     bottom: 0;
     left: 0;
-    top: 0;
     border-bottom: 4px solid white;
     border-right: 4px solid white;
 }
