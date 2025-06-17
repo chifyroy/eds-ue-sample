@@ -255,3 +255,8 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
+.default-content-wrapper p strong {
+  font-size: 125.0%;
+  color: rgb(0, 59, 113);
+}
