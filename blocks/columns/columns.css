@@ -31,3 +31,12 @@
     order: unset;
   }
 }
+
+.content-tile {
+    position: relative;
+}
+.content-tile h3 {
+    position: absolute;
+    margin: 0;
+    padding: 31px;
+}
