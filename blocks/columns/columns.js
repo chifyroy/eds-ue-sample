@@ -15,6 +15,7 @@ export default function decorate(block) {
           const border = document.createElement('div');
           border.className = 'border';
           col.append(border);
+          col.classList.add('content-tile');
         }
       }
     });
