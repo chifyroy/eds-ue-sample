@@ -32,11 +32,11 @@
   }
 }
 
-.content-tile {
+main .content-tile {
     position: relative;
     height: 380px;
 }
-.content-tile:before {
+main .content-tile:before {
     content: '';
     position: absolute;
     left: 0;
@@ -45,23 +45,23 @@
     width: 100%;
     background-color: rgba(0, 0, 0, 0.35);
 }
-.content-tile h3 {
+main .content-tile h3 {
     position: absolute;
     top: 0;
     margin: 0;
     padding: 31px;
     color: #fff;
 }
-.content-tile p {
+main .content-tile p {
     margin: 0;
     height: 100%;
     overflow: hidden;
 }
-.content-tile picture img {
+main .content-tile picture img {
     object-fit: cover;
     height: 100%;
 }
-.content-tile .border {
+main .content-tile .border {
     position: absolute;
     width: calc(100% - 24px);
     height: calc(100% - 24px);
@@ -69,19 +69,19 @@
     left: 12px;
     z-index: 50;
 }
-.content-tile .border:before {
+main .content-tile .border:before {
     top: 0;
     right: 0;
     border-left: 4px solid white;
     border-top: 4px solid white;
 }
-.content-tile .border:after {
+main .content-tile .border:after {
     bottom: 0;
     left: 0;
     border-bottom: 4px solid white;
     border-right: 4px solid white;
 }
-.content-tile .border:before, .content-tile .border:after {
+main .content-tile .border:before, .content-tile .border:after {
     content: '';
     position: absolute;
     visibility: hidden;
@@ -89,14 +89,14 @@
     height: 0;
 }
 
-.content-tile:hover .border:before {
+main .content-tile:hover .border:before {
     -webkit-animation: borderDraw .8s ease-in-out forwards;
     animation: borderDraw .8s ease-in-out forwards;
     -webkit-animation-delay: .4s;
     animation-delay: .4s
 }
 
-.content-tile:hover .border:after {
+main .content-tile:hover .border:after {
     -webkit-animation: borderDraw .8s ease-in-out forwards;
     animation: borderDraw .8s ease-in-out forwards
 }
