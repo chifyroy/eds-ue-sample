@@ -1,20 +1,36 @@
 footer {
-  background-color: var(--light-color);
+  background-color: #002b52;
   font-size: var(--body-font-size-xs);
+  color: #fff;
 }
 
 footer .footer > div {
-  margin: auto;
+  /*margin: auto;*/
   max-width: 1200px;
-  padding: 40px 24px 24px;
+  /*padding: 40px 24px 24px;*/
 }
 
 footer .footer p {
   margin: 0;
 }
 
-@media (width >= 900px) {
+/*@media (width >= 900px) {
   footer .footer > div {
     padding: 40px 32px 24px;
   }
+}*/
+
+footer .columns > div > div:first-child {
+  background-color: #003b71;
+  padding: 3rem 2rem;
+}
+
+footer a, footer a:any-link {
+    color: #fff;
+}
+
+footer a.button:any-link {
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
 }
