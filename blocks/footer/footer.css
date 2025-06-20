@@ -4,14 +4,14 @@ footer {
   color: #fff;
 }
 
-footer .footer > div {
-  /*margin: auto;*/
+/*footer .footer > div {
+  margin: auto;
   max-width: 1200px;
-  /*padding: 40px 24px 24px;*/
-}
+  padding: 40px 24px 24px;
+}*/
 
 footer .footer p {
-  margin: 0;
+  margin: 0 0 10px;
 }
 
 /*@media (width >= 900px) {
@@ -23,14 +23,31 @@ footer .footer p {
 footer .columns > div > div:first-child {
   background-color: #003b71;
   padding: 3rem 2rem;
+  flex-grow: 1.5;
 }
-
+footer h3 {
+  margin: 80px 0 20px;
+  position: relative;
+}
+footer h3:before {
+  content: '';
+  position: absolute;
+  top: -40px;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  background-color: #006ba6;
+}
 footer a, footer a:any-link {
-    color: #fff;
+  color: #fff;
 }
-
+footer picture img {
+  object-fit: cover;
+  height: 100%;
+}
 footer a.button:any-link {
-    color: #fff;
-    margin: 0px;
-    padding: 0px;
+  color: #fff;
+  background: none;
+  margin: 0px;
+  padding: 0px;
 }
