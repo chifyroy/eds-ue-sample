@@ -26,10 +26,13 @@ footer .columns > div > div:first-child {
   flex-grow: 1.5;
 }
 footer h3 {
-  margin: 80px 0 20px;
+  margin-bottom: 20px;
+}
+footer .columns > div > div:first-child h3 {
+  margin-top: 80px;
   position: relative;
 }
-footer h3:before {
+footer .columns > div > div:first-child h3:before {
   content: '';
   position: absolute;
   top: -40px;
