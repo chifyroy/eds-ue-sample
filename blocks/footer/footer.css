@@ -58,3 +58,21 @@ footer a.button:any-link {
   margin: 0px;
   padding: 0px;
 }
+footer .columns:first-child > div div:last-child {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  flex: 0.5;
+  position: relative;
+  padding-left: 30px;
+}
+footer .columns:first-child > div div:last-child:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background-color: #003b71;
+  margin: unset;
+}
