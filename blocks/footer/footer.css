@@ -48,6 +48,7 @@ footer .columns > div > div:first-child h3:before {
 footer a, footer a:any-link {
   color: #fff;
   position: relative;
+  text-decoration: none;
 }
 footer a:hover:after {
   transform: scaleX(1);
